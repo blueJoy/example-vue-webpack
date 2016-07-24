@@ -3,10 +3,19 @@
  */
 
 import Vue from 'vue'
+import App from './components/app.vue'
 
+/*
 new Vue({
     el:'body',
     data:{
         message:'Hello Vue !'
+    }
+})*/
+
+new Vue({
+    el:'body',
+    components:{
+        App
     }
 })

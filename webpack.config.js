@@ -24,8 +24,17 @@ module.exports = {
                 loader:'babel',
                 //不用转换的node_modules文件夹
                 exclude:/node_modules/
+            },
+            {
+                test:/\.vue$/,
+                loader:'vue'
             }
         ]
-    }
+    },
+    vue:{
+        loaders:{
+            js:'babel'
+        }}
+
 
 }
