@@ -11,6 +11,7 @@ module.exports = {
     output:{
         // 'dist'文件夹
         path:'./dist',
+        publicPath:'dist/',
         //文件 dist/build.js
         filename:'build.js'
     },
